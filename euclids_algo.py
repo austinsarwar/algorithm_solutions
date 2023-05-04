@@ -15,5 +15,5 @@ def euclid_algo(m,n):
     else:
         m = n
         n = remainder
-        euclid_algo(m,n)
-print(euclid_algo(4,2))
+        return euclid_algo(m,n)
+print(euclid_algo(10,2))
